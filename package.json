@@ -1,0 +1,32 @@
+{
+  "name": "amymariag-dark",
+  "displayName": "amymariag-dark",
+  "description": "pink dark mode theme made by @amymariag!",
+  "version": "0.0.1",
+  "publisher" : "amycodes",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/amymariag/amymariag-dark"
+  },
+  "keywords" : [
+    "dark theme",
+    "pink theme",
+    "amymariag",
+    "pink and purple theme"
+  ],
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark-color-theme.json"
+      }
+    ]
+  }
+}
